@@ -1,0 +1,9 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  data:
+    mongodb:
+      uri: "mongodb://localhost/test"
+  mongodb:
+    embedded:
+      version: '3.4.15'
